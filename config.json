@@ -1,0 +1,17 @@
+{
+    "api_key": "输入key",   
+    "help": "---点击这里注册申请免费大模型接口，获取apikey，记得选择flash系列：https://www.bigmodel.cn/glm-coding?ic=4RMWPOBCBC---",
+    "model": "glm-4.7-flash",
+    "api_url": "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+    "system_prompt": "你是一位专业图书翻译专家，擅长的领域是XXX。你正在翻译一本叫《XXXX》的英文书籍。 \n \n /no_think",
+    "user_prompt_template": "待翻译的英文内容如下：\n\n【{}】。请你输出流畅的中文，不需要解释。\n/no_think",
+    "pdf_path": "XXXX输入绝对路径XXX.pdf",
+    "output_path": "translation.html",
+    "progress_file": "progress.json",
+    "request_interval": 1,
+    "pagesize": 10,
+    "parse_region": {
+        "min_x_ratio": 0.05,
+        "min_y_ratio": 0.08
+    }
+}
